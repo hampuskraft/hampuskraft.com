@@ -1,0 +1,33 @@
+:root {
+  --color-accent: #00b0f4;
+  --color-article: #eaeaea;
+  --color-bg: #131415;
+  --color-fg: #fafbfc;
+  --color-select: rgb(255 255 255 / 99%);
+  --font-sans: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+}
+
+::selection {
+  color: var(--color-bg);
+  background-color: var(--color-select);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  vertical-align: baseline;
+  border: 0;
+  outline: 0;
+}

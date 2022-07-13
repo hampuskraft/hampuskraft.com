@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  padding-right: 16px;
+  padding-left: 16px;
+  line-height: 1.9;
+}
+
+@keyframes floating {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  60% {
+    transform: translateY(15px);
+  }
+}
+
+.article svg {
+  width: 64px;
+  height: 64px;
+  fill: currentcolor;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .article svg {
+    animation: floating 3s ease-in-out infinite;
+  }
+}
+
+.article h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.89px;
+}
+
+.article p {
+  font-size: 18px;
+  color: var(--color-article);
+  letter-spacing: -0.33px;
+}

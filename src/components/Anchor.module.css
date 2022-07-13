@@ -1,0 +1,9 @@
+.anchor {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.anchor:hover,
+.anchor:focus-visible {
+  text-decoration: underline;
+}
