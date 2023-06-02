@@ -1,0 +1,33 @@
+:root {
+  --color-accent: #00b0f4;
+  --color-bg: #000;
+  --color-fg: #fff;
+  --color-select: rgb(255 255 255 / 99%);
+  --font-display: 'Space Grotesk Variable', sans-serif;
+  --font-primary: 'Source Sans 3 Variable', sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+  min-height: 100vh;
+  color: var(--color-fg);
+  line-height: 1.5;
+  font-family: var(--font-primary);
+}
+
+::selection {
+  background-color: var(--color-select);
+  color: var(--color-bg);
+}
+
+* {
+  vertical-align: baseline;
+  margin: 0;
+  outline: 0;
+  border: 0;
+  padding: 0;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: 100%;
+  font-family: inherit;
+}

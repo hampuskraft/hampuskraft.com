@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+  place-items: center;
+  padding-right: 16px;
+  padding-left: 16px;
+  height: 100vh;
+  line-height: 1.9;
+}
+
+@keyframes floating {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  60% {
+    transform: translateY(15px);
+  }
+}
+
+.ghost {
+  fill: currentcolor;
+  width: 64px;
+  height: 64px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .ghost {
+    animation: floating 3s ease-in-out infinite;
+  }
+}
+
+.article h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.25;
+  font-family: var(--font-display);
+  letter-spacing: -0.89px;
+}
+
+.article p,
+.social {
+  font-size: 18px;
+  letter-spacing: -0.33px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
