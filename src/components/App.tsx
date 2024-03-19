@@ -1,4 +1,4 @@
-import {Discord, Email, GitHub, Keybase, LinkedIn, Mastodon} from '../common/icons';
+import {Bluesky, Discord, Email, GitHub, Keybase, LinkedIn, Mastodon, Threads} from '../common/icons';
 import {useFavicon} from '../hooks/useFavicon';
 import {Anchor} from './Anchor';
 import styles from './App.module.css';
@@ -29,10 +29,10 @@ const PROFILES = [
     url: 'https://keybase.io/hampuskraft',
   },
   {
-    label: 'Discord',
-    icon: <Discord />,
-    name: '@Hampus#0001',
-    url: 'discord:/users/514340181243854848',
+    label: 'Threads',
+    icon: <Threads />,
+    name: '@hampuskraft',
+    url: 'https://www.threads.net/@hampuskraft',
   },
   {
     label: 'Mastodon',
@@ -40,6 +40,18 @@ const PROFILES = [
     name: '@hampus@mastodon.social',
     url: 'https://mastodon.social/@hampus',
     rel: 'me',
+  },
+  {
+    label: 'Bluesky',
+    icon: <Bluesky />,
+    name: '@hampuskraft.com',
+    url: 'https://bsky.app/profile/hampuskraft.com',
+  },
+  {
+    label: 'Discord',
+    icon: <Discord />,
+    name: '@hampus.',
+    url: 'discord:/users/514340181243854848',
   },
 ];
 
@@ -55,7 +67,7 @@ export function App() {
         <div style={{marginTop: 16}} />
         <h1>Hampus Kraft</h1>
         <div style={{marginTop: 16}} />
-        <p>Software engineer, primarily using Rust, Python, Elixir, and TypeScript.</p>
+        <p>Software engineer and friendly ghost. {'<'}3 Rust and TypeScript.</p>
         <div style={{marginTop: 16}} />
 
         {PROFILES.map((profile) => (

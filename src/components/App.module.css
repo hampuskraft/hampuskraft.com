@@ -7,6 +7,11 @@
   line-height: 1.9;
 }
 
+.article {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
 @keyframes floating {
   0%,
   100% {
@@ -36,6 +41,10 @@
   line-height: 1.25;
   font-family: var(--font-display);
   letter-spacing: -0.89px;
+}
+
+.article p {
+  line-height: 1.6;
 }
 
 .article p,

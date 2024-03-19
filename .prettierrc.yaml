@@ -2,4 +2,4 @@ bracketSpacing: false
 printWidth: 120
 singleQuote: true
 trailingComma: all
-plugins: [prettier-plugin-css-order]
+plugins: [prettier-plugin-css-order, prettier-plugin-organize-imports]
