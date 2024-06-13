@@ -1,0 +1,33 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"files": {
+		"ignore": ["images/hampus.json"]
+	},
+	"formatter": {
+		"enabled": true,
+		"formatWithErrors": true,
+		"lineWidth": 120
+	},
+	"javascript": {
+		"formatter": {
+			"bracketSpacing": false,
+			"quoteStyle": "single"
+		}
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"nursery": {
+				"useSortedClasses": "error"
+			},
+			"recommended": true
+		}
+	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"vcs": {
+		"clientKind": "git",
+		"enabled": true
+	}
+}

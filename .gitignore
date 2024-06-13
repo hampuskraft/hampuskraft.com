@@ -1,0 +1,7 @@
+.astro/
+.DS_Store
+.env
+.env.production
+*.log*
+dist/
+node_modules/
