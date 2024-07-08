@@ -46,7 +46,7 @@ const PROFILES = [
 	{
 		label: 'Discord',
 		icon: <Discord />,
-		name: '@hampus.',
+		name: '@hampus.lol',
 		url: 'discord:/users/514340181243854848',
 	},
 ];
@@ -61,8 +61,8 @@ export function App() {
 				<div className="flex flex-col gap-1">
 					<h1 className="font-semibold text-4xl leading-snug tracking-tighter">Hampus Kraft</h1>
 					<p className="leading-relaxed">
-						I'm a software engineer passionate about React, TypeScript, and Rust. I'm also interested in distributed
-						systems and scalable architecture.
+						Software engineer passionate about React, TypeScript, and Rust. Interested in distributed systems and
+						scalable architecture.
 					</p>
 				</div>
 
