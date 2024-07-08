@@ -40,8 +40,8 @@ const PROFILES = [
 	{
 		label: 'Bluesky',
 		icon: <Bluesky />,
-		name: '@hampuskraft.com',
-		url: 'https://bsky.app/profile/hampuskraft.com',
+		name: '@hampus.lol',
+		url: 'https://bsky.app/profile/hampus.lol',
 	},
 	{
 		label: 'Discord',
